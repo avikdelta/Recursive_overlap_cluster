@@ -27,6 +27,7 @@ Folder description
               triangle participation ratio (TPR), fraction over median degree (FOMD),
               modularity (MOD), and average F1 score (F1).
 
+3) data -- Contains synthetic graph dataset and corresponding config file
 
 -------------------------------------------------------------------------------------
 Requirements 
@@ -139,20 +140,34 @@ To test average F1 score with respect to the ground truth, run
 Config File Parameters
 -------------------------------------------------------------------------------------
 
-THRESHOLD_INIT -- Initial degree threshold in each recursive call 
+THRESHOLD_INIT -- Initial degree threshold in each recursive call
+ 
 DENSE_THRESHOLD -- Dimension till which the program performs full SVD
+
 MAX_CLUSTER_ITER -- Number of iterations performed by ClusterCP subroutine
+
 K_MAX -- Default maximum number of communities in config class. (Currently not used) 
+
 SPARSE_SVD_RANK -- The default rank of sparse SVD
+
 DEFAULT_NUM_THREADS -- Default number of threads/core used
+
 VERBOSE_ON -- Flag to turn on verbose mode
+
 LOGS_ON -- Flag to enable output of communities on the fly as they are discovered.
+
 TEST_NUMBER -- Unique string to identify an experiment
+
 p -- Within community edge density
+
 q -- Across community edge density
+
 GAMMA -- Minimum size of a community (typically use 3 or more on real datasets)
+
 EDGELIST_FILE -- Name of edgelist file
+
 NUM_NODES -- Number of nodes in the graph
+
 NUM_EDGES -- Number of edges in the graph
 
 
