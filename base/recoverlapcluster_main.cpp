@@ -1,5 +1,5 @@
 /*
- * Main file for Overlap Cluster algorithm
+ * Main file for Recursive Overlap Cluster algorithm
  *
  * Code by Avik Ray (avik@utexas.edu)
  *
