@@ -2,19 +2,15 @@
 
 A C++ implementation of a recursive parallel overlap graph clustering algorithm
 
-COPYRIGHT (C) 2016 Avik Ray:
+COPYRIGHT (C) 2016-present by Avik Ray:
 
-RedSVD.h copyright belongs to Okanohara Daisuke and Nicolas Tessore.
-Remaining all files copyright belongs to Avik Ray.
-The program and codes can be used under the Apache License, Version 2.0
+`RedSVD.h` copyright belongs to Okanohara Daisuke and Nicolas Tessore. Remaining all files copyright belongs to Avik Ray. The program and codes can be used under the Apache License, Version 2.0
 
 contact: avik@utexas.edu
 
 Please cite the reference below if used.
 
-reference: Avik Ray, Javad Ghaderi, Sujay Sanghavi and Sanjay Shakkottai, 
-"Overlap Graph Clustering via Successive Removal", Proceedings of 52nd 
-Annual Allerton Conference (Allerton 2014), Allerton, USA.
+- Avik Ray, Javad Ghaderi, Sujay Sanghavi and Sanjay Shakkottai, "Overlap Graph Clustering via Successive Removal", Proceedings of 52nd Annual Allerton Conference (Allerton 2014), Allerton, USA.
 
 ## Folder description 
 
